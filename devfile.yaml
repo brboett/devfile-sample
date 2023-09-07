@@ -17,7 +17,7 @@ components:
           targetPort: 3001
   - name: runtime
     container:
-      image: registry.access.redhat.com/ubi8/nodejs-18
+      image: registry.access.redhat.com/ubi8/nodejs-18@sha256:8a634a49c4e8d1753cddd3c047a4324d405fd2f6723f67b7ac274bb5fe72ff44
       memoryLimit: 1024Mi
       mountSources: true
       sourceMapping: /project
